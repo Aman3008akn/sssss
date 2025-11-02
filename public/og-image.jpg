@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Elegant dark background -->
-  <rect width="1200" height="630" fill="#0A0A0A"/>
+  <!-- Elegant dark gradient background -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#000000"/>
+    </linearGradient>
+  </defs>
   
-  <!-- Decorative elements -->
-  <rect x="40" y="40" width="1120" height="550" stroke="#333" stroke-width="2"/>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
   
-  <!-- Main title -->
-  <text x="600" y="250" font-family="'Playfair Display', serif" font-size="72" fill="#FFFFFF" text-anchor="middle">Luna Luxe</text>
+  <!-- Decorative border -->
+  <rect x="40" y="40" width="1120" height="550" stroke="#333333" stroke-width="2"/>
+  
+  <!-- Luna Luxe Title -->
+  <text x="600" y="260" font-family="Playfair Display" font-size="84" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">LUNA LUXE</text>
   
   <!-- Subtitle -->
-  <text x="600" y="350" font-family="'Inter', sans-serif" font-size="32" fill="#888888" text-anchor="middle">Ultimate Luxury Fashion &amp; Jewelry</text>
+  <text x="600" y="350" font-family="Inter" font-size="32" fill="#888888" text-anchor="middle" dominant-baseline="middle">Ultimate Luxury Fashion &amp; Jewelry</text>
+  
+  <!-- URL at bottom -->
+  <text x="600" y="550" font-family="Inter" font-size="24" fill="#666666" text-anchor="middle" dominant-baseline="middle">lunaluxew.netlify.app</text>
 </svg>
