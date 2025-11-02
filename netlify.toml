@@ -1,6 +1,11 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  base = "/"
+
+[build.environment]
+  NETLIFY_PROJECT_ID = "c87a3127-fc99-4af3-9fbb-f404d762eb9f"
+  NODE_VERSION = "18"
 
 # Redirect all routes to index.html for SPA client-side routing
 [[redirects]]

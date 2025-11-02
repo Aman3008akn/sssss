@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Elegant dark background -->
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  
+  <!-- Decorative elements -->
+  <rect x="40" y="40" width="1120" height="550" stroke="#333" stroke-width="2"/>
+  
+  <!-- Main title -->
+  <text x="600" y="250" font-family="'Playfair Display', serif" font-size="72" fill="#FFFFFF" text-anchor="middle">Luna Luxe</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="350" font-family="'Inter', sans-serif" font-size="32" fill="#888888" text-anchor="middle">Ultimate Luxury Fashion &amp; Jewelry</text>
+</svg>

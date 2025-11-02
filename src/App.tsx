@@ -15,7 +15,7 @@ import Checkout from "./pages/Checkout";
 import Wishlist from "./pages/Wishlist";
 import Dashboard from "./pages/Dashboard";
 import AdminDashboard from "./pages/AdminDashboard";
-import AdminGuard, { pathnameEndsWithAdmin } from "./components/AdminGuard";
+import AdminGuard from "./components/AdminGuard";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
